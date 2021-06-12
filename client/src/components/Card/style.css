@@ -1,0 +1,90 @@
+* {
+  /* color: darkslategrey !important; */
+}
+
+.rupeeColor {
+  color: #198643;
+}
+
+.eachCard {
+  min-width: 180px !important;
+  width: 220px;
+  /* height: 225px; */
+  margin: 1vh 1vw;
+  color: darkslategrey;
+  border-color: #a8ab8c !important;
+  box-shadow: 3px 3px 5px #198643;
+  font-family: "Maven Pro", serif;
+  border-radius: 0.75rem !important ;
+}
+
+/* .eachCard:hover{
+  transform: scale(1.1);  
+  box-shadow: 3px 3px 5px #0b692f;
+} */
+
+.cardImg {
+  margin: 0 auto;
+  max-height: 100px;
+  max-width: 200px;
+}
+
+.cardText {
+  color: #3a4e42;
+}
+
+.viewItem {
+  color: darkslategrey !important;
+  /* border: 1px solid grey !important; */
+}
+
+.viewItem:hover {
+  text-decoration: underline !important;
+  border: none !important;
+}
+
+.shortDesc {
+  font-size: 0.75rem;
+}
+
+.cardBody {
+  padding: 0.4rem;
+}
+.footer {
+  /* background-color: #482B20 !important; */
+  color: darkslategrey !important;
+}
+
+/* .productTitle {
+  border-bottom: 1px solid lightgray;
+} */
+
+.zoom {
+  transition: transform 1s ease;
+}
+
+.zoom:hover {
+  /* transform: scale(1.5); */
+  position: relative;
+  cursor: zoom-in;
+}
+
+.card {
+  overflow: hidden;
+}
+
+@media (max-width: 349px) {
+  .eachCard {
+    margin-left: 5vw !important;
+  }
+
+  .eachCard {
+    width: 80% !important;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .eachCard {
+    max-width: 150px !important;
+  }
+}
