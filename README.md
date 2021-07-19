@@ -345,10 +345,5 @@ _ _ _
 - nodemon
 
 
-<h1 align="center">Creators</h1>
 
-+ Jennifer Kruk : [Portfolio](https://jenkruk.github.io/Portfolio/)
-- Sara Neves Pereira: [Portfolio]( https://saranp-33.github.io/bootstrap-portfolio/)
-+ Lindsey Tummond: [Portfolio]( https://lindseytummond.github.io/portfolio/)
-- Niasha Ablago-Grant: [Portfolio]( https://niashagrant.github.io/updatedPortfolio/)
 
